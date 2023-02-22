@@ -1,0 +1,249 @@
+/* Styling for all web pages */
+
+/* For pages that have scrolling */
+.background {
+    background-color: #131417;
+}
+
+/* For page without scrolling */
+.background2 {
+    background-color: #131417;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Setting width for page contents */
+.webpage {
+    margin: 0 500px;
+    padding: 20px 0;
+}
+
+/* Formatting navigation bar */
+.navigation_bar {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    border: solid #367bb0;
+    background-color: #14182B;
+    height: 50px;
+    align-items: center;
+    font-size: 22px;
+    margin: 0 0 30px;
+}
+
+/* Effects for links */
+a:link {
+    color: #367bb0;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #367bb0;
+    font-family: fantasy;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #997F48;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #997F48;
+}
+
+/* Formatting header and paragraph text */
+h1 {
+    font-family: fantasy;
+    font-style: italic;
+    text-decoration: underline;
+    font-variant: small-caps;
+    color: #997F48;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 0 30px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #997F48;
+    font-size: 35px;
+    margin: 0;
+}
+
+h3 {
+    font-family: fantasy;
+    font-style: italic;
+    color: #997F48;
+    font-variant: small-caps;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+p {
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+
+/* Styling for home page */
+
+/* Centering cover image */
+.cover_image_container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+/* Formatting reviews and reviewers */
+.review {
+    margin: 10px auto 0;
+}
+
+.reviewer {
+    display: flex;
+    justify-content: right;
+    font-style: italic;
+    margin: 5px auto 30px;
+}
+
+
+
+/* Styling for form page */
+
+/* Defining fieldset for form */
+.fieldset {
+    border-color: #997F48;
+    margin: 20px 0;
+}
+
+/* Formatting container for form elements */
+.form_element {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 25px 20px;
+    font-size: 18px;
+    color: #997F48;
+}
+
+/* Formatting form element labels */
+.form_header {
+    color: #997F48;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Formatting single-line textfields */
+.text_field {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+/* Formatting row for radio buttons */
+.form_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+/* Setting maximum and minimum size of text field */
+textarea {
+    min-height: 50px;
+    max-height: 200px;
+    min-width: 120px;
+    max-width: 300px;
+    font-family: fantasy;
+}
+
+/* Formatting submit button */
+.button {
+    font-family: fantasy;
+    background-color: #997F48;
+    color: #14182B;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 6px 24px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: #815903;
+}
+
+
+
+/* Styling for more info page */
+
+/* Adding list and image to container so they can be side-by-side */
+.list_and_image_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Formatting image on this page different than on art page */
+#image {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+/* Formatting list of links */
+.list {
+    color: #367bb0;
+    height: 600px;
+    font-size: 22px;
+    display: grid;
+    align-items: space-between;
+}
+
+
+
+/* Styling for art page */
+
+/* Defining grid for images and labels */
+.art_grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+/* Adding image and label to container */
+.image_and_label {
+    display: grid;
+    justify-content: center;
+    margin: 0 10px 30px;
+}
+
+/* Formatting images */
+.image {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    margin: auto;
+}
+
+/* Formatting labels */
+.label {
+    text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+    color: #997F48;
+}

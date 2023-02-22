@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="starless-sea-layout.css">
+        <title>Capstone Project - The Starless Sea</title>
+    </head>
+    <body style="margin: 0;">
+        <div class="background">
+            <div class="webpage">
+                <div class="navigation_bar">
+                    <div class="link-home"><a href="page1.html">Home</a></div>
+                    <div class="link-form"><a href="page2.html">Form</a></div>
+                    <div class="link-reviews"><a href="page3.html">More Info</a></div>
+                    <div class="link-art"><a href="page4.html">Art</a></div>
+                </div>
+
+                <h1>User Form</h1>
+                <form action="/form-handling-url" method="post">
+                    <fieldset class="fieldset">
+                        <div class="form_element">
+                            <div class="form_header"><label for="Name">Name:</label></div>
+                            <div class="text_field"><input type="text" id="name" name="name"></div>
+                        </div>
+
+                        <div class="form_element">
+                            <div class="form_header"><label for="Email">Email Address:</label></div>
+                            <div class="text_field"><input type="email" id="email" name="email_address"></div>
+                        </div>
+
+                        <p class="form_header">Have you read The Starless Sea?</p>
+                        <div class="form_row">
+                            <div class="form_element">
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="yes" name="choice" value="yes">
+                            </div>
+                            <div class="form_element">
+                                <label for="no">No</label>
+                                <input type="radio" id="no" name="choice" value="no">
+                            </div>
+                        </div>
+
+                        <p class="form_header">If not, does it sound like a book you'd be interested in reading?</p>
+                        <div class="form_row">
+                            <div class="form_element">
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="yes" name="choice2" value="yes">
+                            </div>
+                            <div class="form_element">
+                                <label for="no">No</label>
+                                <input type="radio" id="no" name="choice2" value="no">
+                            </div>
+                        </div>
+
+                        <p class="form_header">Have you read The Night Circus?</p>
+                        <div class="form_row">
+                            <div class="form_element">
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="yes" name="choice3" value="yes">
+                            </div>
+                            <div class="form_element">
+                                <label for="no">No</label>
+                                <input type="radio" id="no" name="choice3" value="no">
+                            </div>
+                        </div>
+
+                        <div class="form_element">
+                            <div class="form_header"><label for="comments">Additional Comments:</label></div>
+                            <div class="text_field"><textarea id="comments" name="comments"></textarea></div>
+                        </div>
+
+                        <div class="form_element">
+                            <button class="button" type="reset">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
